@@ -8,10 +8,6 @@ chrome.browserAction.onClicked.addListener(async () => {
 		p(chrome.tabs.query, {
 			currentWindow: false,
 			windowType: 'normal'
-		}),
-		p(chrome.tabs.query, {
-			currentWindow: false,
-			windowType: 'popup'
 		})
 	]);
 
